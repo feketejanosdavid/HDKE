@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    display: flex;
+}
+header .openhours {
+    margin-right: 100px;
+}
