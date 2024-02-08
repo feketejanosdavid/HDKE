@@ -2,9 +2,30 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-header {
+header .links {
     display: flex;
 }
 header .openhours {
-    margin-right: 100px;
+    margin-right: 55%;
+    margin-left : 50px;
+}
+header .search_engine {
+    margin-right: 2%;
+}
+header .language_chooser {
+    margin-right: 10%;
+}
+header .instagram_link {
+    margin-right: 1%;
+}
+header .icons {
+    margin-right: 0.5%;
+}
+
+header a:link, header a:visited {
+    text-decoration: none;
+    color: black;
+}
+header a:hover, header a:active {
+    color: black;
 }
